@@ -23,7 +23,7 @@ end
 #implement:create a Hash.new,store in variable to(default value=0) 
 #keep track of current occurrence of each character in input string
 #loops through each character in the input string using each_char,
-# updates the count in the
+# updates the count in the Hash
 
 def ordered_count(string)
    count = Hash.new(0)
