@@ -1,7 +1,7 @@
 #No ifs no buts
 #function that accepts two numbers a and b
 # returns whether a is smaller than, bigger than, or equal to b as string 
-#implement:<=> operator with case return 1 if a>b,0 if a=b,-1 if a<b
+#implement:<=> , spaceship  operator with case return 1 if a>b,0 if a=b,-1 if a<b
 def compare(a,b)
     case(a <=> b)
      when 1
